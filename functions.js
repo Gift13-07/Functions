@@ -106,13 +106,15 @@ console.log(m)
 function addition(a,m){
     let addition= a + m
     console.log(addition)
+    return addition
 }
 //invoke
 let d= addition(7,m)
+console.log(d)
 //d-2
-function subtraction(d,f){
-    let subtraction= d - f
-    console.log(subtraction)
+function subtract(d,a){
+    let subtract= d - a
+    console.log(subtract)
 }
 //invoke
-subtraction(d,2)
+subtract(d,2)
